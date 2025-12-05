@@ -1,0 +1,8 @@
+<suite name="Regression suite">
+	<Test name="Regression Test">
+		<classes>
+		<class name ="automationProject.FirstClass"/>
+				
+		</classes>
+	</Test>
+</suite>
