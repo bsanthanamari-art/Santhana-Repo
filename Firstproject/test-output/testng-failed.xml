@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [Regression suite]">
+  <test thread-count="3" parallel="classes" name="Regression Test(failed)">
+    <classes>
+      <class name="automationProject.Secondclass">
+        <methods>
+          <include name="bclose"/>
+          <include name="bopen"/>
+          <include name="url"/>
+        </methods>
+      </class> <!-- automationProject.Secondclass -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Regression suite] -->

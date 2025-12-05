@@ -1,0 +1,12 @@
+<suite name="Regression suite" parallel="classes" thread-count="3">
+	<test name="Regression Test">
+		<classes>
+		<class name ="automationProject.FirstClass"/>
+		<class name ="automationProject.Secondclass"/>
+		<class name="automationProject.Thirdclass"/>
+		<class name= "automationProject.FourthClass"/>
+		<class name="automationProject.fifthclass"/>
+				
+		</classes>
+	</test>
+</suite>
