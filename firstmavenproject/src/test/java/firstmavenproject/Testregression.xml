@@ -2,7 +2,10 @@
 	<Test name="Regression Test">
 		<classes>
 		<class name ="automationProject.FirstClass"/>
+			<class name ="automationProject.secondClass"/>
+			
 				
 		</classes>
 	</Test>
+
 </suite>
