@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="15" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-02T15:38:15 IST" name="Regression suite" finished-at="2025-12-02T15:39:28 IST" duration-ms="72973">
+    <groups>
+    </groups>
+    <test started-at="2025-12-02T15:38:15 IST" name="Regression Test" finished-at="2025-12-02T15:39:28 IST" duration-ms="72973">
+      <class name="automationProject.fifthclass">
+        <test-method is-config="true" signature="bug()[pri:0, instance:automationProject.fifthclass@3012646b]" started-at="2025-12-02T15:38:36 IST" name="bug" finished-at="2025-12-02T15:38:52 IST" duration-ms="16316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bug -->
+        <test-method signature="bug1()[pri:0, instance:automationProject.fifthclass@3012646b]" started-at="2025-12-02T15:38:52 IST" name="bug1" finished-at="2025-12-02T15:38:53 IST" duration-ms="1159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bug1 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:automationProject.fifthclass@3012646b]" started-at="2025-12-02T15:38:53 IST" name="close" finished-at="2025-12-02T15:38:55 IST" duration-ms="2320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- automationProject.fifthclass -->
+      <class name="automationProject.Secondclass">
+        <test-method is-config="true" signature="bopen()[pri:0, instance:automationProject.Secondclass@6221a451]" started-at="2025-12-02T15:38:15 IST" name="bopen" finished-at="2025-12-02T15:38:23 IST" duration-ms="8360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bopen -->
+        <test-method signature="function()[pri:0, instance:automationProject.Secondclass@6221a451]" started-at="2025-12-02T15:38:23 IST" name="function" finished-at="2025-12-02T15:38:23 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- function -->
+        <test-method is-config="true" signature="bclose()[pri:0, instance:automationProject.Secondclass@6221a451]" started-at="2025-12-02T15:38:23 IST" name="bclose" finished-at="2025-12-02T15:38:23 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclose -->
+        <test-method is-config="true" signature="bopen()[pri:0, instance:automationProject.Secondclass@6221a451]" started-at="2025-12-02T15:38:23 IST" name="bopen" finished-at="2025-12-02T15:38:28 IST" duration-ms="4483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bopen -->
+        <test-method signature="pgtitle()[pri:0, instance:automationProject.Secondclass@6221a451]" started-at="2025-12-02T15:38:28 IST" name="pgtitle" finished-at="2025-12-02T15:38:28 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pgtitle -->
+        <test-method is-config="true" signature="bclose()[pri:0, instance:automationProject.Secondclass@6221a451]" started-at="2025-12-02T15:38:28 IST" name="bclose" finished-at="2025-12-02T15:38:31 IST" duration-ms="2688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclose -->
+        <test-method is-config="true" signature="bopen()[pri:0, instance:automationProject.Secondclass@6221a451]" started-at="2025-12-02T15:38:31 IST" name="bopen" finished-at="2025-12-02T15:38:35 IST" duration-ms="4673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bopen -->
+        <test-method signature="url()[pri:0, instance:automationProject.Secondclass@6221a451]" started-at="2025-12-02T15:38:35 IST" name="url" finished-at="2025-12-02T15:38:35 IST" duration-ms="30" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https] but found [https://qainterview.pythonanywhere.com/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https] but found [https://qainterview.pythonanywhere.com/]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at automationProject.Secondclass.url(Secondclass.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method is-config="true" signature="bclose()[pri:0, instance:automationProject.Secondclass@6221a451]" started-at="2025-12-02T15:38:35 IST" name="bclose" finished-at="2025-12-02T15:38:36 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclose -->
+      </class> <!-- automationProject.Secondclass -->
+      <class name="automationProject.FirstClass">
+        <test-method is-config="true" signature="browsweopen()[pri:0, instance:automationProject.FirstClass@21282ed8]" started-at="2025-12-02T15:38:15 IST" name="browsweopen" finished-at="2025-12-02T15:38:25 IST" duration-ms="10285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsweopen -->
+        <test-method signature="about()[pri:0, instance:automationProject.FirstClass@21282ed8]" started-at="2025-12-02T15:38:25 IST" name="about" finished-at="2025-12-02T15:38:27 IST" duration-ms="2177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- about -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:automationProject.FirstClass@21282ed8]" started-at="2025-12-02T15:38:27 IST" name="browserclose" finished-at="2025-12-02T15:38:27 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="browsweopen()[pri:0, instance:automationProject.FirstClass@21282ed8]" started-at="2025-12-02T15:38:27 IST" name="browsweopen" finished-at="2025-12-02T15:38:35 IST" duration-ms="8138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsweopen -->
+        <test-method signature="calculate()[pri:0, instance:automationProject.FirstClass@21282ed8]" started-at="2025-12-02T15:38:35 IST" name="calculate" finished-at="2025-12-02T15:38:36 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculate -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:automationProject.FirstClass@21282ed8]" started-at="2025-12-02T15:38:36 IST" name="browserclose" finished-at="2025-12-02T15:38:36 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="browsweopen()[pri:0, instance:automationProject.FirstClass@21282ed8]" started-at="2025-12-02T15:38:36 IST" name="browsweopen" finished-at="2025-12-02T15:38:54 IST" duration-ms="17815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsweopen -->
+        <test-method signature="fact()[pri:0, instance:automationProject.FirstClass@21282ed8]" started-at="2025-12-02T15:38:54 IST" name="fact" finished-at="2025-12-02T15:38:54 IST" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fact -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:automationProject.FirstClass@21282ed8]" started-at="2025-12-02T15:38:54 IST" name="browserclose" finished-at="2025-12-02T15:38:55 IST" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="browsweopen()[pri:0, instance:automationProject.FirstClass@21282ed8]" started-at="2025-12-02T15:38:55 IST" name="browsweopen" finished-at="2025-12-02T15:39:02 IST" duration-ms="7315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsweopen -->
+        <test-method signature="privacy()[pri:0, instance:automationProject.FirstClass@21282ed8]" started-at="2025-12-02T15:39:02 IST" name="privacy" finished-at="2025-12-02T15:39:03 IST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- privacy -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:automationProject.FirstClass@21282ed8]" started-at="2025-12-02T15:39:03 IST" name="browserclose" finished-at="2025-12-02T15:39:03 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="browsweopen()[pri:0, instance:automationProject.FirstClass@21282ed8]" started-at="2025-12-02T15:39:03 IST" name="browsweopen" finished-at="2025-12-02T15:39:09 IST" duration-ms="6233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsweopen -->
+        <test-method signature="termsacond()[pri:0, instance:automationProject.FirstClass@21282ed8]" started-at="2025-12-02T15:39:09 IST" name="termsacond" finished-at="2025-12-02T15:39:15 IST" duration-ms="5636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- termsacond -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:automationProject.FirstClass@21282ed8]" started-at="2025-12-02T15:39:15 IST" name="browserclose" finished-at="2025-12-02T15:39:15 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- automationProject.FirstClass -->
+      <class name="automationProject.Thirdclass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:38:15 IST" name="setup" finished-at="2025-12-02T15:38:23 IST" duration-ms="8064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyFactorial(int,java.lang.String)[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:38:23 IST" name="verifyFactorial" data-provider="factorialData" finished-at="2025-12-02T15:38:26 IST" duration-ms="2778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFactorial -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:38:26 IST" name="quitbrowser" finished-at="2025-12-02T15:38:27 IST" duration-ms="1444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:38:27 IST" name="setup" finished-at="2025-12-02T15:38:34 IST" duration-ms="6753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyFactorial(int,java.lang.String)[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:38:34 IST" name="verifyFactorial" data-provider="factorialData" finished-at="2025-12-02T15:38:36 IST" duration-ms="2461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFactorial -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:38:36 IST" name="quitbrowser" finished-at="2025-12-02T15:38:39 IST" duration-ms="2896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:38:39 IST" name="setup" finished-at="2025-12-02T15:38:53 IST" duration-ms="14218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyFactorial(int,java.lang.String)[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:38:53 IST" name="verifyFactorial" data-provider="factorialData" finished-at="2025-12-02T15:38:56 IST" duration-ms="3131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[720]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFactorial -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:38:56 IST" name="quitbrowser" finished-at="2025-12-02T15:38:58 IST" duration-ms="1688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:38:58 IST" name="setup" finished-at="2025-12-02T15:39:03 IST" duration-ms="4347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyFactorial(int,java.lang.String)[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:39:03 IST" name="verifyFactorial" data-provider="factorialData" finished-at="2025-12-02T15:39:05 IST" duration-ms="2469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5040]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFactorial -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:39:05 IST" name="quitbrowser" finished-at="2025-12-02T15:39:05 IST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:39:05 IST" name="setup" finished-at="2025-12-02T15:39:10 IST" duration-ms="4438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyFactorial(int,java.lang.String)[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:39:10 IST" name="verifyFactorial" data-provider="factorialData" finished-at="2025-12-02T15:39:12 IST" duration-ms="2471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[40320]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFactorial -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:39:12 IST" name="quitbrowser" finished-at="2025-12-02T15:39:13 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:39:13 IST" name="setup" finished-at="2025-12-02T15:39:18 IST" duration-ms="5321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyFactorial(int,java.lang.String)[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:39:18 IST" name="verifyFactorial" data-provider="factorialData" finished-at="2025-12-02T15:39:20 IST" duration-ms="2357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[362880]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFactorial -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:39:20 IST" name="quitbrowser" finished-at="2025-12-02T15:39:21 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:39:21 IST" name="setup" finished-at="2025-12-02T15:39:24 IST" duration-ms="2788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyFactorial(int,java.lang.String)[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:39:24 IST" name="verifyFactorial" data-provider="factorialData" finished-at="2025-12-02T15:39:27 IST" duration-ms="3588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3628800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFactorial -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:automationProject.Thirdclass@52719fb6]" started-at="2025-12-02T15:39:27 IST" name="quitbrowser" finished-at="2025-12-02T15:39:28 IST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- automationProject.Thirdclass -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression suite -->
+</testng-results>
