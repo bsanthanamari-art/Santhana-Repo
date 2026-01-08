@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeSuite]">
+  <test thread-count="5" name="RegressionTest(failed)">
+    <classes>
+      <class name="prabankapplicationnew.Registrationparabank">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="setup"/>
+          <include name="register"/>
+        </methods>
+      </class> <!-- prabankapplicationnew.Registrationparabank -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->

@@ -1,0 +1,12 @@
+
+<suite name="SmokeSuite">
+    <test name="RegressionTest">
+        <classes>
+            <class name="prabankapplicationnew.Registrationparabank"/>
+            <class name="prabankapplicationnew.Loginpageparabank"/>
+            <class name="prabankapplicationnew.FundTransfterparabank"/>
+            <class name="prabankapplicationnew.LoanApplication"/>
+            <class name="prabankapplicationnew.UpdateContactinfo"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-08T15:23:38 IST" name="SmokeSuite" finished-at="2026-01-08T15:24:48 IST" duration-ms="69802">
+    <groups>
+    </groups>
+    <test started-at="2026-01-08T15:23:38 IST" name="RegressionTest" finished-at="2026-01-08T15:24:48 IST" duration-ms="69802">
+      <class name="prabankapplicationnew.Registrationparabank">
+        <test-method is-config="true" signature="setup()[pri:0, instance:prabankapplicationnew.Registrationparabank@7526515b]" started-at="2026-01-08T15:23:38 IST" name="setup" finished-at="2026-01-08T15:23:47 IST" duration-ms="8574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="register()[pri:0, instance:prabankapplicationnew.Registrationparabank@7526515b]" started-at="2026-01-08T15:23:47 IST" name="register" finished-at="2026-01-08T15:23:54 IST" duration-ms="7274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:prabankapplicationnew.Registrationparabank@7526515b]" started-at="2026-01-08T15:23:54 IST" name="closebrowser" finished-at="2026-01-08T15:23:55 IST" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- prabankapplicationnew.Registrationparabank -->
+      <class name="prabankapplicationnew.LoanApplication">
+        <test-method is-config="true" signature="setup()[pri:0, instance:prabankapplicationnew.LoanApplication@4c60d6e9]" started-at="2026-01-08T15:24:15 IST" name="setup" finished-at="2026-01-08T15:24:20 IST" duration-ms="4413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loanapplication()[pri:0, instance:prabankapplicationnew.LoanApplication@4c60d6e9]" started-at="2026-01-08T15:24:20 IST" name="loanapplication" finished-at="2026-01-08T15:24:27 IST" duration-ms="7009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanapplication -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:prabankapplicationnew.LoanApplication@4c60d6e9]" started-at="2026-01-08T15:24:27 IST" name="quit" finished-at="2026-01-08T15:24:27 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- prabankapplicationnew.LoanApplication -->
+      <class name="prabankapplicationnew.UpdateContactinfo">
+        <test-method is-config="true" signature="setup()[pri:0, instance:prabankapplicationnew.UpdateContactinfo@15043a2f]" started-at="2026-01-08T15:24:27 IST" name="setup" finished-at="2026-01-08T15:24:41 IST" duration-ms="14242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateinfo()[pri:0, instance:prabankapplicationnew.UpdateContactinfo@15043a2f]" started-at="2026-01-08T15:24:41 IST" name="updateinfo" finished-at="2026-01-08T15:24:48 IST" duration-ms="7099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateinfo -->
+      </class> <!-- prabankapplicationnew.UpdateContactinfo -->
+      <class name="prabankapplicationnew.FundTransfterparabank">
+        <test-method is-config="true" signature="setup()[pri:0, instance:prabankapplicationnew.FundTransfterparabank@196a42c3]" started-at="2026-01-08T15:24:06 IST" name="setup" finished-at="2026-01-08T15:24:12 IST" duration-ms="5877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="fundTransferTest()[pri:0, instance:prabankapplicationnew.FundTransfterparabank@196a42c3]" started-at="2026-01-08T15:24:12 IST" name="fundTransferTest" finished-at="2026-01-08T15:24:15 IST" duration-ms="3048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fundTransferTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:prabankapplicationnew.FundTransfterparabank@196a42c3]" started-at="2026-01-08T15:24:15 IST" name="quit" finished-at="2026-01-08T15:24:15 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- prabankapplicationnew.FundTransfterparabank -->
+      <class name="prabankapplicationnew.Loginpageparabank">
+        <test-method is-config="true" signature="setup()[pri:0, instance:prabankapplicationnew.Loginpageparabank@79e4c792]" started-at="2026-01-08T15:23:55 IST" name="setup" finished-at="2026-01-08T15:24:01 IST" duration-ms="6251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginpage()[pri:0, instance:prabankapplicationnew.Loginpageparabank@79e4c792]" started-at="2026-01-08T15:24:01 IST" name="loginpage" finished-at="2026-01-08T15:24:06 IST" duration-ms="4708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:prabankapplicationnew.Loginpageparabank@79e4c792]" started-at="2026-01-08T15:24:06 IST" name="closebrowser" finished-at="2026-01-08T15:24:06 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- prabankapplicationnew.Loginpageparabank -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- SmokeSuite -->
+</testng-results>
